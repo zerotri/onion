@@ -235,6 +235,5 @@ endif (${ONION_EXAMPLES})
 
 if (${ONION_USE_TESTS})
 	enable_testing()
+	add_subdirectory(tests)
 endif(${ONION_USE_TESTS})
-
-add_subdirectory(tests)
